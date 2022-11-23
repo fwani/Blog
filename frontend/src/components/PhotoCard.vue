@@ -1,7 +1,7 @@
 <template>
   <v-card
       :loading="loading"
-      class="mx-auto my-12"
+      class="mx-auto my-10"
       max-width="374"
   >
     <template v-slot:loader="{ isActive }">
@@ -15,7 +15,7 @@
 
     <v-img
         cover
-        height="250"
+        height="200"
         src="https://cdn.vuetifyjs.com/images/cards/cooking.png"
     ></v-img>
 

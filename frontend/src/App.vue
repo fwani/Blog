@@ -1,18 +1,22 @@
 <template>
   <v-app>
-    <v-main>
-      <HomePage/>
-    </v-main>
+    <MainHeader/>
+    <HomePage/>
+    <MainFooter/>
   </v-app>
 </template>
 
 <script>
 import HomePage from "@/components/HomePage";
+import MainHeader from "@/components/MainHeader";
+import MainFooter from "@/components/MainFooter";
 
 export default {
   name: 'App',
 
   components: {
+    MainFooter,
+    MainHeader,
     HomePage,
   },
 
